@@ -1,0 +1,88 @@
+Message - ID : < 31894659.1075840191585.JavaMail.evans@thyme > 
+     Date : We d , █ █ █ █ █ █ █ █ 07:13:23 -0800 ( PST ) 
+     From : kam.keiser@enron.com 
+     To : ganapathy.ramesh@enron.com 
+     Subject : RE : Gas Books - found some small duplicates in the spreadsheet 
+     Mime - Version : 1.0 
+     Content - Type : text / plain ; charset = us - ascii 
+     Content - Transfer - Encoding : 7bit 
+     X - From : █ █ █ █ █ █ , █ █ █ < /O = ENRON / OU = NA / CN = RECIPIENTS / CN = KKEISER > 
+     X - To : █ █ █ █ █ █ , █ █ █ █ █ █ █ █ █ < /O = ENRON / OU = NA / CN = RECIPIENTS / CN = GRAMESH > 
+     X - cc : 
+     X - bcc : 
+     X - Folder : \ExMerge - Keiser , Kam\Sent Items 
+     X - Origin : KEISER - K 
+     X - FileName : █ █ █ █ █ █ █ █ █ 7 - 11 - 02.PST 
+
+     Could you tell me what the new Rac website address will be and when it will be ready to use ? 
+
+     Thanks 
+
+      -----Original Message----- 
+     From : 	     █ █ █ █ █ █ , █ █ █ █ █ █ █ █ █  
+     Sent : 	     █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ 8:48 AM 
+     To : 	     █ █ █ █ █ █ , Kam 
+     Cc : 	     █ █ █ █ █ , Virendra ; Champion , █ █ █ █ █ █ ; █ █ █ █ █ █ , █ █ █ █ █ █ █ █ █ █ █ █ : 	     RE : Gas Books - found some small duplicates in the spreadsheet 
+
+     Kam , 
+     We created the real portfolios of all these books as well . We are waiting on the hierarchy from Risk Controls . If that is delayed , then we will simply dump all the real portfolios under a root portfolio for purposes of testing potential exposure , credit reserve and VaR. 
+
+     Regards , 
+     █ █ █ █ █ █ 
+
+      -----Original Message----- 
+     From : 	     █ █ █ █ █ █ , Kam  
+     Sent : 	     █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ 7:32 AM 
+     To : 	     Champion , █ █ █ █ █ █ ; █ █ █ █ █ █ , █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ , █ █ █ █ █ █ █ █ █ ; █ █ █ █ █ , Virendra 
+     Subject : 	     RE : Gas Books - found some small duplicates in the spreadsheet 
+
+     Thanks for making those changes .       Let us know when we are ready to start setting up the hierarchy . 
+
+     Thanks 
+
+     Kam 
+
+
+      -----Original Message----- 
+     From : 	     Champion , █ █ █ █ █ █ █ █ █ █ █ █ : 	     █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ 
+     To : 	     █ █ █ █ █ █ , █ █ █ ; █ █ █ █ █ █ , █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ , █ █ █ █ █ █ █ █ █ ; █ █ █ █ █ , Virendra 
+     Subject : 	     Gas Books - found some small duplicates in the spreadsheet 
+
+
+     Kam , █ █ █ █ , we found a few book_id name issues while trying to batch - load the books . 
+
+     We were able to figure out the issues ourselves , but for your reference here are the changes we made : 
+
+
+     FB - EXECUTIVE 	     M 	     F 	     P 	     FIN 	     US FINANCIAL                  	     ERMS 	     emglaugh 	
+     FB - EXECUTIVE 	     M 	     F 	     D 	     FIN 	     US FINANCIAL                  	     ERMS 	     emglaugh 	
+     FB - EXECUTIVE 	     M 	     F 	     I 	     FIN 	     US FINANCIAL                  	     ERMS 	     emglaugh 	
+     FB - EXECUTIVE 	     M 	     F 	     M 	     FIN 	     US FINANCIAL                  	     ERMS 	     emglaugh 	
+     FB - EXECUTIVE 	     M 	     F 	     Y 	     FIN 	     US FINANCIAL                  	     ERMS 	     emglaugh 	
+
+     Note all 5 books were labeled as ' FB - EXECUTIVE ' .       We instead named them 
+
+     FB - EXECUTIVE - PRC 
+     FB - EXECUTIVE - BAS 
+     FB - EXECUTIVE - IDX 
+     FB - EXECUTIVE - GDM 
+     FB - EXECUTIVE - GDY 
+
+     Also , we found these two books that had the same book ID : 
+
+     FB - WEST1 - GDM 	     M 	     F 	     M 	     █ █ █ █ █ 	     █ █ GAS WEST 	     ERMS 	     plove 	
+
+     FB - WEST1 - GDM 	     M 	     F 	     M 	     WEST10 	     █ █ GAS WEST 	     ERMS 	     plove 	
+
+     Note that the second book should be named ' FB - WEST10 - GDM ' , based on the WEST10 Region Code . 
+
+     We fixed that one as well . 
+
+     Please update your spreadsheet , and let us know if we need to discuss in the morning . 
+
+     The next step is the hierarchy , which we should receive from █ █ █ █ █ █ █ █ █ or █ █ █ █ █ █ in the morning .       Thanks . 
+
+     █ █ █ █ █ █ █ █ █ █ █ █ █ 
+
+
+
