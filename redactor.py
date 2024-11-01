@@ -16,7 +16,7 @@ sbert_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 
 FULL_BLOCK = '█'
-nlp = spacy.load("en_core_web_lg")
+nlp = spacy.load("en_core_web_md")
 pattern = r'\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}'
 x_to_pattern = r'X-To:\s*([A-Za-z.,-]+) \s*([A-Za-z.,-]*)'
 location_pattern = r'(?:\d+\s+([A-Za-z]+(?:\s[A-Za-z]+)*)\s*(?:Street|St|Avenue|Ave|Road|Rd|Boulevard|Blvd|Lane|Ln|Drive|Dr|Way|Terrace|Terr|Court|Ct|Place|Pl|Square|Sq|Parkway|Pkwy|Circle|Cir)?)?\s*(?:,\s*\d+[A-Za-z\s]*)?\s*(?:,\s*[A-Za-z\s]+)?\s*(?:,\s*[A-Z]{2}\s*\d{5})?$'
