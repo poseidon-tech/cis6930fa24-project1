@@ -1,8 +1,14 @@
 import sys
 import os
+import nltk
 
 # Add the parent directory to the system path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))#Possible reasons for pipenv failure
+nltk.download('punkt_tab')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 
 # Now you can import your functions from redactor.py
 from redactor import address_redactor, name_redactor, date_redactor, phone_redactor, concept_redactor
