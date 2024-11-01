@@ -11,8 +11,11 @@ import numpy as np
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 sbert_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
-
-
+#Possible reasons for pipenv failure
+nltk.download('punkt_tab')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 
 FULL_BLOCK = '█'

@@ -24,10 +24,8 @@ Sent:	Wednesday, February 06, 2002 8:48 AM
 X-To: ██████ Kam
 Cc:	█████, ████████; Champion, ██████; ██████, ████████████:	RE: Gas Books - found some small duplicates in the spreadsheet
 
-Kam,
-We created the real portfolios of all these books as well. We are waiting on the hierarchy from Risk Controls. If that is delayed, then we will simply dump all the real portfolios under a root portfolio for purposes of testing potential exposure, credit reserve and VaR.
-
-Regards,
+███,
+We created the real portfolios of all these books as well. We are waiting on the hierarchy from Risk Controls. If that is delayed, then we will simply dump all the real portfolios under a root portfolio for purposes of testing potential exposure, credit reserve and ██████Regards,
 Ramesh
 
  -----Original Message-----
@@ -45,11 +43,11 @@ Kam
 
  -----Original Message-----
 From: 	Champion, ██████████████	Tuesday, February 05, 2002 9:13 PM
-X-To: ██████ Kam; ██████, ███████:	██████, █████████; █████, ████████
+To:	██████, ███; ██████, ███████:	██████, █████████; █████, ████████
 Subject:	Gas Books - found some small duplicates in the spreadsheet
 
 
-Kam, ████, we found a few book_id name issues while trying to batch-load the books.
+███, ████, we found a few book_id name issues while trying to batch-load the books.
 
 We were able to figure out the issues ourselves, but for your reference here are the changes we made:
 
@@ -62,7 +60,7 @@ FB-EXECUTIVE	M	F	Y	FIN	US FINANCIAL                  	ERMS	emglaugh
 
 Note all 5 books were labeled as 'FB-EXECUTIVE'.  We instead named them
 
-FB-EXECUTIVE-PRC
+FB-EXECUTIVE-███
 FB-EXECUTIVE-BAS
 FB-EXECUTIVE-IDX
 FB-EXECUTIVE-GDM
@@ -70,11 +68,11 @@ FB-EXECUTIVE-GDY
 
 Also, we found these two books that had the same book ID:
 
-FB-WEST1-GDM	M	F	M	WEST1	US GAS WEST	ERMS	plove	
+FB-WEST1-GDM	M	F	M	WEST1	██ GAS WEST	ERMS	plove	
 
-FB-WEST1-GDM	M	F	M	WEST10	US GAS WEST	ERMS	plove	
+██████████████	F	M	██████	██ GAS WEST	ERMS	plove	
 
-Note that the second book should be named 'FB-WEST10-GDM', based on the WEST10 Region Code.
+Note that the second book should be named 'FB-WEST10-GDM', based on ██████████████████████.
 
 We fixed that one as well.
 
@@ -82,7 +80,4 @@ Please update your spreadsheet, and let us know if we need to discuss in the mor
 
 The next step is the hierarchy, which we should receive from █████████ or ██████ in the morning.  Thanks.
 
-█████████████
-
-
-
+█████████████████
