@@ -31,8 +31,8 @@
 ## How to Run
 
 To execute the `redactor.py` file, use:
-```bash
-pipenv run python main.py --input PATH_TO_TEXT_FILES [--names] [--dates] [--phones] [--address] [--concept CONCEPT_WORDS] -output OUTPUT_DIRECTORY
+```bas
+pipenv run python main.py --input PATH_TO_TEXT_FILES [--names] [--dates] [--phones] [--address] [--concept CONCEPT_WORDS] --output OUTPUT_DIRECTORY --stats STATS_FILE
 ```
 To run tests, use:
 ```bash
@@ -81,7 +81,16 @@ pipenv run pytest
 - **LICENSE:** Contains licensing information, including copyright, publishing, and usage rights.
 - **Files:** Stores output censored files, including `sample.txt.censored`, which is a sample file for testing.
 - **tests:** Contains test files. `test_redactor.py` is used for testing the redactor Python file.
+- **stats:** This is a sample stats file. The format is as follows -
+```bash
+File Name: sample.txt
+Names redacted: 3
+Dates redacted: 2
+Phone numbers redacted: 1
+Addresses redacted: 1
+Concepts redacted: 5
 
+```
 ## `redactor.py`
 
 **Functions in `redactor.py`:**
