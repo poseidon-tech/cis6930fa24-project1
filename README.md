@@ -79,9 +79,9 @@ pipenv run pytest
 - **setup.cfg** and **setup.py:** Used for setting up the Python environment.
 - **docs:** Contains documentation for the assignment.
 - **LICENSE:** Contains licensing information, including copyright, publishing, and usage rights.
-- **Files:** Stores output censored files, including `sample.txt.censored`, which is a sample file for testing.
+- **Files:** This folder stores output censored files, including `sample.txt.censored`, which is a sample file for testing. User can store the files in another directory by mentioning in outputs argument.
 - **tests:** Contains test files. `test_redactor.py` is used for testing the redactor Python file.
-- **stats:** This is a sample stats file. The format is as follows -
+- **stats:** This is a sample stats file. The format includes the file name and the count of each redacted entity. A sample stats file is as follows -
 ```bash
 File Name: sample.txt
 Names redacted: 3
