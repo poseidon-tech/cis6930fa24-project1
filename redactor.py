@@ -10,6 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 sbert_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+import sys
 
 #Possible reasons for pipenv failure
 nltk.download('punkt_tab')
@@ -48,7 +49,6 @@ def main(args):
             'addresses': 0,
             'concepts': 0,
         }
-        file_path = os.path.join(args.output, txt_file + '.censored')
         content = readData(txt_file)
         if args.address:
             content, stat = address_redactor(content)
@@ -65,8 +65,11 @@ def main(args):
         if args.concept:
             content,stat = concept_redactor(content,args.concept)
             stats['concepts'] = stat
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(content)
+        if args.output:
+            file_path = os.path.join(args.output, txt_file + '.censored')
+            os.makedirs(args.output, exist_ok=True)
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(content)
         stats_summary = [
             "File Name: "+ txt_file,
             f"Names redacted: {stats['names']}",
@@ -76,9 +79,11 @@ def main(args):
             f"Concepts redacted: {stats['concepts']}",
         ]
         stats_text = "\n".join(stats_summary)
-        print("stats-summary")
-        print(stats_text)
-        if(args.stats):
+        if args.stats == 'stderr':
+            sys.stderr.write(stats_text + "\n")
+        elif args.stats == 'stdout':
+            sys.stdout.write(stats_text + "\n")
+        elif(args.stats):
             with open(args.stats, 'a', encoding='utf-8') as output_file:
                 output_file.write("\n" +stats_text)
 
