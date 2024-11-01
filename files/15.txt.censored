@@ -1,0 +1,89 @@
+Message-ID: <15███████████840191723.JavaMail.evans@thyme>
+Date: Tue, ██████████ 14:28:23 -0800 (PST)
+From: ███.██████@enron.com
+To: █████.██████@enron.com
+Subject: FW: UBS curves
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: ██████████ </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KKEISER>
+X-X-To: ██████ Brian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bgillis>
+X-cc: 
+X-bcc: 
+X-Folder: █████████████████, Kam\Sent Items
+X-Origin: ████████
+X-FileName: ██████████████████████████████████
+
+Do you have a list of new curves for UBS.  They will only be taking over history for the curves we will continue to load.
+
+Kam
+
+
+ -----Original Message-----
+From: 	████, Jeremy  
+Sent:	Tuesday, February 05, 2002 4:21 PM
+X-To: ██████ Kam
+Cc:	███, ██████████; Stock, █████
+Subject:	FW: UBS curves
+
+███:
+
+We would also need Calgary's list of curves/pub. codes to move to NetCo/UBS - could
+you provide the list also?
+
+██████████████
+
+ -----Original Message-----
+From: 	Stock, █████████████	Tuesday, ██████████████████████ PM
+X-To: ████ Jeremy
+Subject:	FW: UBS curves
+
+What's the status ██████.....?
+
+█████
+
+ -----Original Message-----
+From: 	███, Zhiyong  
+Sent:	Tuesday, February 05, 2002 2:41 PM
+X-To: █████ ████████:	██████, Kam
+Subject:	RE: UBS curves
+
+█████,
+
+Kam has asked about the status of the below request. Would you please provide her with the update?
+
+Thanks
+
+Zhiyong
+
+ -----Original Message-----
+From: 	███, Zhiyong  
+Sent:	Tuesday, January 29, 2002 1:58 PM
+X-To: ████ Jeremy
+Cc:	Stock, █████
+Subject:	FW: UBS curves
+
+██████,
+
+Please make appropriate changes to the NETCO ERMS database for the following requests. What needs to be done is to delete all other curve entries in the egs_curve_def and egs_curve points and egs_pub_names which are not listed in the attached file. I will talk to you about it.
+
+Thanks
+
+Zhiyong
+
+ -----Original Message-----
+From: 	██████, Kam  
+Sent:	Tuesday, January 29, 2002 1:40 PM
+X-To: ███ Zhiyong
+Subject:	UBS curves
+
+ Zhiyong,
+
+We have decided to take the curve history with us to UBS for the attached curves.  We have changed the names for some of the curves so column J has additional curves that we would like to bring history.  We will not continue publishing those in the future however.
+
+
+Thanks
+
+Kam
+
+ << File: Netco Curves.xls >> 
