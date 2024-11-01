@@ -77,7 +77,7 @@ def main(args):
         print(stats_text)
         if(args.stats):
             with open(args.stats, 'a', encoding='utf-8') as output_file:
-                output_file.write(stats_text)
+                output_file.write("\n" +stats_text)
 
 
 def readData(txt_file):
